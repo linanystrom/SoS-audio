@@ -2,7 +2,7 @@
 
 ## Basic Set-up ----------------------------------------------------------------
 
-packages <- c("tidyverse","av","fs")
+packages <- c("tidyverse","av","fs", "psych")
 
 lapply(packages, library, character.only = TRUE)
 
@@ -31,7 +31,7 @@ df$minutes <- df$duration/60
 
 ## Some descriptives of duration -----------------------------------------------
 
-duration_desc <- describe(duration)
+duration_desc <- describe(df)
 
 ## Export data frame -----------------------------------------------------------
 
