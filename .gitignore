@@ -3,5 +3,5 @@
 .RData
 .Ruserdata
 .m4a
-.csv
+*.csv
 Audio/
